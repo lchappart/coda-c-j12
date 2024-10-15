@@ -11,6 +11,8 @@ struct s_number {
 };
 
 void add_to_end(number **list, int value);
-void display_list(number **list);
+void display_list(number *list);
+void add_before(number **list) ;
+number* sort(number *list);
 
 #endif
